@@ -1,0 +1,13 @@
+org\simple\angularjs\contact\dao\interfaces\GenericDAO.class
+org\simple\angularjs\contact\service\impl\ContactImplService.class
+org\simple\angularjs\contact\util\DateUtil.class
+org\simple\angularjs\contact\dao\DataSetup.class
+org\simple\angularjs\contact\dao\impl\GenericHibernateDAO.class
+org\simple\angularjs\contact\controller\ContactController.class
+org\simple\angularjs\contact\entity\PersistenceEntity.class
+org\simple\angularjs\contact\service\interfaces\GenericService.class
+org\simple\angularjs\contact\dao\impl\ContactImplDAO.class
+org\simple\angularjs\contact\service\interfaces\ContactService.class
+org\simple\angularjs\contact\dao\interfaces\ContactDAO.class
+org\simple\angularjs\contact\entity\Contact.class
+org\simple\angularjs\contact\service\impl\GenericImplService.class

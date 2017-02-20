@@ -1,0 +1,13 @@
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\dao\interfaces\GenericDAO.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\dao\interfaces\ContactDAO.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\dao\impl\ContactImplDAO.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\service\interfaces\ContactService.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\util\DateUtil.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\controller\ContactController.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\dao\DataSetup.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\entity\Contact.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\dao\impl\GenericHibernateDAO.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\service\interfaces\GenericService.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\service\impl\ContactImplService.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\service\impl\GenericImplService.java
+C:\Users\toss\dev\SimpleCrudAngularJS\src\main\java\org\simple\angularjs\contact\entity\PersistenceEntity.java

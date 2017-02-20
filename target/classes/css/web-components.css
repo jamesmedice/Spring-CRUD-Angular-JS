@@ -1,0 +1,57 @@
+ .searchContainer {
+			height: 50px; 
+			width: 100%;
+		}
+		.Container {
+			border: 1px solid; 
+			width: auto; 
+			float: left; 
+			height: auto;
+		}
+		.ContainerForm	 {
+			border: 1px solid; 
+			width: 25%;  
+			height: 300px; 
+			float: left;	
+		}  
+		
+		.searchBox {
+			margin: 4px 10px;
+		}
+		.previous {
+			margin: 10px 20px;
+			float: left;
+			width: 700px;
+		}
+		.next {
+			float: right;
+		}
+	
+		form {
+			padding : 10px;
+			margin : 10px;
+		}
+		
+		div {
+			background-color: #f1f1f1;
+			border-bottom: 2px solid #f1f1f1;
+		}
+		span {
+			margin : 2px 4px ;
+		}
+	
+	    th {
+			cursor: pointer;
+		}
+		
+		table, th , td  {
+		  border: 1px solid grey;
+		  border-collapse: collapse;
+		  padding: 5px;
+		}
+		table tr:nth-child(odd)	{
+		  background-color: #f1f1f1;
+		}
+		table tr:nth-child(even) {
+		  background-color: #ffffff;
+		}

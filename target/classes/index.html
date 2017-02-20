@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<title>ContactsAngularJs</title>
+<link href="css/bootstrap-2.3.2.css" rel="stylesheet">
+<link href="css/web-components.css" rel="stylesheet">
+<link href="css/bootstrap-responsive-2.3.2.css" rel="stylesheet">
+</head>
+<body ng-controller="ContactController">
+
+
+	<div class="searchContainer">
+		<div class="previous">
+			Search:<input ng-model="query" type="text" class="searchBox" />
+		</div>
+		<div class="previous">
+			<div>
+				<span>Sort By:</span> <select data-ng-model="engine.current"
+					data-ng-options="act for act in activities"
+					ng-change="motorChange(engine.current)">
+				</select>
+			</div>
+		</div>
+	</div>
+
+
+	<div>
+		<div>
+			<input type="button" ng-click="newOne()" value="New" class="btn" />
+		</div> 
+		<div>
+			<input type="text" ng-model="contact.name" name="name" />
+		</div>
+		<div>
+			<input type="text" ng-model="contact.phone" name="phone" />
+		</div>
+		<div>
+			<input type="button" ng-click="add()" value="SAVE" class="btn" />
+		</div>
+	</div>
+
+
+	<div class="Container">
+		<table>
+			<tr>
+				<th ng-click="sortField ='name'; reverse = !reverse">[NAME]</th>
+				<th ng-click="sortField ='phone'; reverse = !reverse">[PHONE]</th>
+			</tr>
+			<tr
+				ng-repeat="contact in contacts | filter:query | orderBy:sortField:reverse">
+				<td><a ng-click="edit(contact)">{{contact.name}}</a></td>
+				<td>{{contact.phone}}</td>
+				<td><a class="btn btn-danger" ng-click="remove(contact)">Remove</a></td>
+			</tr>
+		</table>
+	</div>
+	<script src="lib/angular.js"></script>
+	<script src="lib/angular-resource.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
